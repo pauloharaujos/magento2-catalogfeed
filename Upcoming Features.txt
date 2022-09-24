@@ -1,0 +1,4 @@
+ - Make Cron Job Editable on the admin panel
+ - Create Custom Log File
+ - Create an option in the admin panel to select which fields export for Products.
+ - Publish the Module on the marketplace
