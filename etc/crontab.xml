@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Catalog Feed Extension by Paulo Henrique Araujo da Silva
+ *
+ * @category  PHAS
+ * @package   PHAS_CatalogFeed
+ * @author    Paulo Henrique Araujo da Silva <pauloharaujos@gmail.com>
+ * @copyright Copyright (c) 2022 Paulo Henrique Araujo da Silva (https://github.com/pauloharaujos)
+ * @license https://opensource.org/licenses/MIT
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+    <group id="default">
+        <job name="phas_export_catalog_feed"
+             instance="PHAS\CatalogFeed\Cron\GenerateProductCatalogSchema"
+             method="execute">
+            <schedule>0 9 * * *</schedule>
+        </job>
+    </group>
+</config>
