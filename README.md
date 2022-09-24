@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-    <img src="https://i.imgur.com/d8QEHRb.png" alt="Magento 2 Catalog Feed" width="128" height="128" title="Magento2 quicklink"/>
+	<img alt="Adobe logo" height="50px" src="https://www.adobe.com/content/dam/cc/icons/Adobe_Corporate_Horizontal_Red_HEX.svg"/>
   <br>
   Magento 2 Catalog Feed Extension
   <br>
