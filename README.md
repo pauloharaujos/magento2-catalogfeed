@@ -20,7 +20,7 @@ Export your catalog to a XML file and use it to integrate with other platforms.
 Install using [Composer](https://getcomposer.org).
 
 ```
-composer require phas/magento2-catalogfeed
+composer require pauloharaujos/magento2-catalogfeed
 php bin/magento module:enable PHAS_CatalogFeed
 php bin/magento setup:upgrade
 ```

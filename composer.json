@@ -1,5 +1,5 @@
 {
-  "name": "phas/magento2-catalogfeed",
+  "name": "pauloharaujos/magento2-catalogfeed",
   "description": "Catalog Feed Extension by Paulo Henrique Araujo da Silva.",
   "type": "magento2-module",
   "version": "1.0.0",
