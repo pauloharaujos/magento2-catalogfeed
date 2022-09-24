@@ -12,6 +12,7 @@
 ## How does it works?
 
 Export your catalog to a XML file and use it to integrate with other platforms.
+You can find the file exported on the following directory: pub/media/catalogfeed/m2_catalog_feed.xml
 
 ## Install
 
@@ -27,5 +28,8 @@ php bin/magento setup:upgrade
 
 ## How to use
 
+```
+php bin/magento phas:export_catalog_feed
+```
 
 [Paulo Henrique Araujo da Silva](https://github.com/pauloharaujos)

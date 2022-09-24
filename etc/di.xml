@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Catalog Feed Extension by Paulo Henrique Araujo da Silva
+ *
+ * @category  PHAS
+ * @package   PHAS_CatalogFeed
+ * @author    Paulo Henrique Araujo da Silva <pauloharaujos@gmail.com>
+ * @copyright Copyright (c) 2022 Paulo Henrique Araujo da Silva (https://github.com/pauloharaujos)
+ * @license https://opensource.org/licenses/MIT
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="catalog_feed_export" xsi:type="object">\PHAS\CatalogFeed\Console\ProductCatalogFeedExport</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

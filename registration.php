@@ -5,9 +5,9 @@
  *
  * @category  PHAS
  * @package   PHAS_CatalogFeed
- * @author    Paulo Henrique Araujo da Silva <paulo@imaginationmedia.com>
+ * @author    Paulo Henrique Araujo da Silva <pauloharaujos@gmail.com>
  * @copyright Copyright (c) 2022 Paulo Henrique Araujo da Silva (https://github.com/pauloharaujos)
- * @license https://opensource.org/licenses/OSL-3.0.php Open Software License 3.0
+ * @license https://opensource.org/licenses/MIT
  */
 
 declare(strict_types=1);
